@@ -11,9 +11,6 @@ function convertValues() {
     const libraToday = 7.26
     const bitcoinToday = 559.043
 
-
-
-
     if (currencySelect.value == "dolar") {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
